@@ -3,6 +3,12 @@
 [string] $RepoPath = $PSScriptRoot 
 )
 
+<#
+Write-host "Add the origal repository as upstream"
+$ git remote add upstream https://github.com/[Original Owner Username]/[Original Repository].git
+
+
+#>
 Write-host "Sync the fork repo"
 Set-Location -Path $RepoPath
 
