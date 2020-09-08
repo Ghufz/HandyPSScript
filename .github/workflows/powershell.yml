@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: Test.ps1
+        run: .\Test.ps1
         shell: pwsh
 
       # Runs a set of commands using the runners shell
