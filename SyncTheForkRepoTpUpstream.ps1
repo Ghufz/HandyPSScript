@@ -18,6 +18,12 @@ Set-Location -Path $RepoPath
 Write-host "Get the Remote "
 git remote -v
 
+
+git pull --rebase upstream master
+git push --force-with-lease origin master
+
+git push origin <<barnch name>>
+
 Write-host "Pull the upstream"
 git fetch upstream
 
